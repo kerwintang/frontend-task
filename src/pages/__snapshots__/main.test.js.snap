@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MainPage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Sidebar
+          animation="push"
+          as={[Function]}
+          direction="left"
+          icon="labeled"
+          inverted={true}
+          vertical={true}
+          visible={true}
+          width="thin"
+        >
+          <MenuItem
+            as="a"
+          >
+            <Input
+              onChange={[Function]}
+              placeholder="Search..."
+              type="text"
+              value=""
+            />
+          </MenuItem>
+          <MenuItem
+            as="a"
+            onClick={[Function]}
+          >
+            <strong>
+              + Add Note
+            </strong>
+          </MenuItem>
+        </Sidebar>,
+        <SidebarPusher>
+          <TextArea
+            as="textarea"
+            autoHeight={true}
+            onChange={[Function]}
+            placeholder="Enter your notes..."
+            rows={35}
+            style={
+              Object {
+                "border": 0,
+                "outline": 0,
+                "width": "100%",
+              }
+            }
+            transparent="true"
+            value=""
+          />
+        </SidebarPusher>,
+      ],
+      "style": Object {
+        "backgroundColor": "white",
+        "marginTop": 10,
+        "opacity": 0.95,
+        "padding": 20,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animation": "push",
+          "as": [Function],
+          "children": Array [
+            <MenuItem
+              as="a"
+            >
+              <Input
+                onChange={[Function]}
+                placeholder="Search..."
+                type="text"
+                value=""
+              />
+            </MenuItem>,
+            <MenuItem
+              as="a"
+              onClick={[Function]}
+            >
+              <strong>
+                + Add Note
+              </strong>
+            </MenuItem>,
+            Array [],
+          ],
+          "direction": "left",
+          "icon": "labeled",
+          "inverted": true,
+          "vertical": true,
+          "visible": true,
+          "width": "thin",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "a",
+              "children": <Input
+                onChange={[Function]}
+                placeholder="Search..."
+                type="text"
+                value=""
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Search...",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "a",
+              "children": <strong>
+                + Add Note
+              </strong>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "+ Add Note",
+              },
+              "ref": null,
+              "rendered": "+ Add Note",
+              "type": "strong",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <TextArea
+            as="textarea"
+            autoHeight={true}
+            onChange={[Function]}
+            placeholder="Enter your notes..."
+            rows={35}
+            style={
+              Object {
+                "border": 0,
+                "outline": 0,
+                "width": "100%",
+              }
+            }
+            transparent="true"
+            value=""
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "as": "textarea",
+            "autoHeight": true,
+            "onChange": [Function],
+            "placeholder": "Enter your notes...",
+            "rows": 35,
+            "style": Object {
+              "border": 0,
+              "outline": 0,
+              "width": "100%",
+            },
+            "transparent": "true",
+            "value": "",
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Sidebar
+            animation="push"
+            as={[Function]}
+            direction="left"
+            icon="labeled"
+            inverted={true}
+            vertical={true}
+            visible={true}
+            width="thin"
+          >
+            <MenuItem
+              as="a"
+            >
+              <Input
+                onChange={[Function]}
+                placeholder="Search..."
+                type="text"
+                value=""
+              />
+            </MenuItem>
+            <MenuItem
+              as="a"
+              onClick={[Function]}
+            >
+              <strong>
+                + Add Note
+              </strong>
+            </MenuItem>
+          </Sidebar>,
+          <SidebarPusher>
+            <TextArea
+              as="textarea"
+              autoHeight={true}
+              onChange={[Function]}
+              placeholder="Enter your notes..."
+              rows={35}
+              style={
+                Object {
+                  "border": 0,
+                  "outline": 0,
+                  "width": "100%",
+                }
+              }
+              transparent="true"
+              value=""
+            />
+          </SidebarPusher>,
+        ],
+        "style": Object {
+          "backgroundColor": "white",
+          "marginTop": 10,
+          "opacity": 0.95,
+          "padding": 20,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animation": "push",
+            "as": [Function],
+            "children": Array [
+              <MenuItem
+                as="a"
+              >
+                <Input
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  type="text"
+                  value=""
+                />
+              </MenuItem>,
+              <MenuItem
+                as="a"
+                onClick={[Function]}
+              >
+                <strong>
+                  + Add Note
+                </strong>
+              </MenuItem>,
+              Array [],
+            ],
+            "direction": "left",
+            "icon": "labeled",
+            "inverted": true,
+            "vertical": true,
+            "visible": true,
+            "width": "thin",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "a",
+                "children": <Input
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  type="text"
+                  value=""
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "onChange": [Function],
+                  "placeholder": "Search...",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "a",
+                "children": <strong>
+                  + Add Note
+                </strong>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "+ Add Note",
+                },
+                "ref": null,
+                "rendered": "+ Add Note",
+                "type": "strong",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <TextArea
+              as="textarea"
+              autoHeight={true}
+              onChange={[Function]}
+              placeholder="Enter your notes..."
+              rows={35}
+              style={
+                Object {
+                  "border": 0,
+                  "outline": 0,
+                  "width": "100%",
+                }
+              }
+              transparent="true"
+              value=""
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "textarea",
+              "autoHeight": true,
+              "onChange": [Function],
+              "placeholder": "Enter your notes...",
+              "rows": 35,
+              "style": Object {
+                "border": 0,
+                "outline": 0,
+                "width": "100%",
+              },
+              "transparent": "true",
+              "value": "",
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

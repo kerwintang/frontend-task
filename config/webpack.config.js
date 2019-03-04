@@ -18,7 +18,12 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        use: ['babel-loader'],
+        use: {
+          loader:'babel-loader',
+          options: {
+            presets: ['env', 'es2015', 'react']            
+          }
+        },
         exclude: /node_modules/,
       },
       {
@@ -67,6 +72,12 @@ module.exports = {
           ],
         }),
       },
+      { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&minetype=application/font-woff" },
+      { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
+      {
+        test: /\.(jpe?g|png|gif)(\?[a-z0-9=.]+)?$/,
+        loader: 'url-loader?limit=100000'
+      }
     ],
   },
   resolve: {
